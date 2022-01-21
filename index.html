@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Google Fonts, Bootstrap 5.0, Social Media Icon Library, Exertanl CSS Sheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <!-- <title> defines the title of the Webpage shown in search engine results/ added to fav. -->
+    <title>DeineLieblingsJasmin</title>
+  </head>
+
+  <body>  
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <span class="navbar-brand h1 ms-4" id="navbar-upperleft">DeineLieblingsJasmin</span>
+        <!-- Navbar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Items -->    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about-me">About Me</a>
+            <a class="nav-link" href="#city-exploring">City Exploring</a>
+            <!-- Dropdown List -->
+            <div class="btn-group">
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#hiking" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hiking</a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item">Hong Kong Island</a></li>
+                  <li><a class="dropdown-item">Kowloon</a></li>
+                  <li><a class="dropdown-item">New Territories</a></li>
+                  <li><a class="dropdown-item">Outlying Islands</a></li>
+                </ul>
+              </li>
+            </div>
+            <!-- <a class="nav-link" href="#languages">Languages</a> -->
+            <a class="nav-link" href="#collections">Collections</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
+              aria-expanded="false">🇺🇸</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-xl-start" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item">🇨🇳 简体中文</a></li>
+                <!-- <li><a class="dropdown-item">🇩🇪 Deutsch</a></li> -->
+                <!-- <li><a class="dropdown-item">🇫🇷 Français</a></li> -->
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Jasmine Zeng</h1>
+          <h3>Nǐ Hǎo/Hello/Nei Ho/Hällochen/Bonjour</h3>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Me; id is for NavBar; class does BGImage -->
+    <div class="about-me" id="about-me">
+      <div class="about-me-p row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p>
+          Hello, my name is <i><strong>Jasmine ZENG</strong></i
+          >. I was born and raised in Mainland China. Approximately three years ago, I moved to Hong Kong in pursue of a higher education. The longer I stay here, the more I am enchanted by this lovely, multifaceted city. 
+          One day, the idea of creating a website to record my life here jumped into my mind. Why not? I thought. I wrote my first HelloWorld not longer after that ...
+        </p>
+        <p>
+          I especially enjoy hiking, visiting history museums, exploring local districts for their food and cultures. In my spare time, besides the above activities, I am also into learning languages and reading. Maybe I will touch on that, too.  
+        </p>
+        <p>
+          Anyways, here is what I have got, and I hope you would enjoy reading it as much as I do ;)
+        </p>
+      </div>
+    </div>
+
+    <!-- City Exploring -->
+    <div class="city-exploring">
+      <h2 id="city-exploring">🏙️ City Exploring</h2>
+      <p>
+        It is such a cliché to claim that Hong Kong only has skyscrapers and
+        businessmen! Here you can find a list of places where I personally like to visit for leisure.
+      </p>
+      <ul>
+          <li>Amusement Parks</li>
+          <li>Museums</li>
+          <li>Outlying Islands</li>
+          <li>Promenades</li>
+          <li>Restaurants</li>
+      </ul>
+    </div>
+
+    <!-- Hiking -->
+    <div class="hiking">
+      <h2 id="hiking">🥾 Hiking</h2>
+      <p>
+        The rich nature of Hong Kong was one of the reasons why I wanted to come here in the first place... The best way to explore the nature here is, in my opinion, hiking. But of course you could engage in many different outdoor activities like trail running, (mountain) biking, bouldering and so on. 
+      </p>
+      <p>
+        Personally, I enjoy exploring new hiking trails as well as different routes which lead to the same peak. Here you can find a list of the trails which I have been to.
+      </p>
+      <br>
+
+      <button type="button" class="hiking-collapsible">Hong Kong Island</button>
+      <div class="hiking-content">
+        <ol>
+            <li>Western</li>
+            <li>Eastern</li>
+            <li>Southern</li>
+            <li>Northern</li>
+        </ol>
+      </div>
+      <button class="hiking-collapsible">Kowloon</button>
+      <div class="hiking-content">
+        <p class="hiking-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nobis repellendus accusamus molestiae numquam, sed possimus exercitationem vel expedita vitae! Exercitationem fugiat voluptatum non ipsum eaque reiciendis quod omnis praesentium.
+        </p>
+      </div>
+
+      <button class="hiking-collapsible">New Territories</button>
+      <div class="hiking-content">
+        <p class="hiking-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nobis repellendus accusamus molestiae numquam, sed possimus exercitationem vel expedita vitae! Exercitationem fugiat voluptatum non ipsum eaque reiciendis quod omnis praesentium.
+        </p>
+      </div>
+
+      <button class="hiking-collapsible">Outlying Islands</button>
+      <div class="hiking-content">
+        <ol>
+            <li>Cheung Chau</li>
+            <li>Lamma</li>
+            <li>Lantau</li>
+            <li>Mui Wo</li>
+            <!-- How to have some space at the bottom? The same method does not work for li. I've tried margin and padding already. -->
+            <li>Tung Ping Chou</li>
+        </ol>    
+      </div>
+    </div>
+
+    <!-- Learning Languages -->
+    <!-- <div class="languages">
+        <h2 id="languages">📚 Learning Languages</h2>
+        <p>
+          I used to have a good grade in English backed in high school, and I was quite contented with it. Until I acidentally attended an English seminar at HKU. Guess what? I could only understood less than 40% of it... I felt so frustrated about it regarding the fact that I've learned this language for 7 years in school. Not long after that, I enrolled myself in IELTS prepration class for the sake of improving English to a fluent level. I am proud to say that within the scope of one year, I successfully improved it from B1 to C1! :D 
+        </p>  
+        <p>
+          English opens a door for me to a variety of things. Like making frineds who grew up under a non-Chinese speaking background, looking at tgungs from a different perspective etc. which widely broden my horizons and enable me to think out of the box. It also ignites the passion of learning languages and exploring new cultures inside me. I've acquired Cantonese along with English, and I'm currently learning German (B2), French (B1) and Japanese (A1).
+        </p>
+        <P>
+          Here you could find a lists of useful websites for learning languages, as well as my methods and thoughts at acquiring them.
+        </P>
+    </div> -->
+
+    <!-- Pics -->
+    <div class="collections" id="collections">
+      <h2>📷 Collections</h2>
+      <p>
+        I like taking photos to record my daily life. Some of my favorite are displayed here. 
+      </p>
+      <br>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./images/hkIsland2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="./images/redIncenseBurnerSummit2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="./images/thePeak1.jpeg" style="width:100%">
+        </div>
+        <!-- Next & Previous Buttons -->
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+      </div>
+      <br>
+
+      <!-- The Dots indicators -->
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+      <h2 id="contact">Contact</h2>
+
+      <!-- Instagram -->
+      <div class="fa fa-instagram"></div>
+
+      <footer>
+        <small>&copy; Copyright 2022, Jasmine ZENG</small>
+      </footer>
+    </div>
+
+  
+
+    <!-- <audio loop autoplay src="Audios/music.mp3"></audio> -->
+
+    <!-- SmoothScrolll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- NavBar>  -->
+    <script>
+        function openNav() {
+          document.getElementById('mySidenav').style.width = '250px';
+        }
+
+        function closeNav() {
+          document.getElementById('mySidenav').style.width = '0';
+        }
+    </script>
+
+    <!-- Exetrnal JS  -->
+    <script src="index.js"></script>
+  </body>
+</html>
