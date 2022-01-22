@@ -41,7 +41,7 @@ h3 { /* Home "Hello" */
   text-align: center;
 } 
 
-p {
+p, address {
   color: beige;
   font-family: 'Source Serif Pro', serif;
   font-size: 20px;
