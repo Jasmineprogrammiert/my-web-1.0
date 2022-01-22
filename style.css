@@ -49,25 +49,6 @@ p {
   padding: 3rem 13rem 0rem;
   margin: 0;
 }
-
-ul {
-  font-family: 'Source Serif Pro', serif;
-  color: beige;
-  font-size: 20px;
-  text-align: justify;
-  padding: 1rem 15rem 0rem;
-  margin: 0;
-}
-  
-ol {
-  list-style-type: lower-roman;
-  padding: 3vw 10vw 3vw;
-}
-
-li {
-  margin-bottom: 2px;
-}
-
 /* ========== Navbar ========== */
 #navbar-upperleft {
   color:antiquewhite;
@@ -109,11 +90,11 @@ li {
 }
 
 .about-me {
-  background-image: url('./images/qiPao8.jpg');
+  background-image: url('./images/qiPao5.jpg');
   height: 100%vh;
   width: 100%;
   background-blend-mode: multiply;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.4);
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -125,86 +106,6 @@ li {
 .about-me-p {
   padding: 18vw 13vw 18vw;
 }
-
-.city-exploring {
-  background-image: url('./images/hkIsland1.jpg');
-  padding: 15vw 13vw 15vw;
-  width: 100%;
-  background-blend-mode: multiply;
-  background-color: rgba(0,0,0,0.5);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-attachment: fixed;
-}
-
-.hiking {
-  background-image: url('./images/lantauPeak1.jpeg');
-  padding: 15vw 13vw 15vw;
-  width: 100%;
-  background-blend-mode: multiply;
-  background-color: rgba(0,0,0,0.5);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-attachment: fixed;
-}
-
-.hiking-collapsible { /* Animated Collapsibles */
-  color: beige;
-  cursor: pointer;
-  padding: 15px 0px;
-  width: 500px;
-  transform: translate(38%);
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
-  font-family: 'Source Serif Pro', serif;
-  background-color: rgba(0,0,0,0.5);
-  display: flex;
-  justify-content: center;
-}
-
-.active, .hiking-collapsible:hover { /* Animated Collapsibles */
-  background-color: rgb(44, 43, 43);
-}
-
-.hiking-content { /* Animated Collapsibles */
-  max-height: 0;
-  overflow: auto;
-  transition: max-height 0.2s ease-out;
-  background-color: rgba(0,0,0,0.5);
-  font-family: 'Source Serif Pro', serif;
-  font-size: 20px;
-  color: beige;
-  width: 500px;
-  transform: translate(38%);
-  display: flex;
-  justify-content: center;
-}
-
-.hiking-paragraph {
-  color: beige;
-  font-family: 'Source Serif Pro', serif;
-  padding: 3vw 10vw 3vw;
-  padding-bottom: 15em;
-}
-
-/* .languages {
-  background-image: url('./BilderfürmeineWebsite/Languages\(1\).jpeg');
-  padding: 15vw 13vw 15vw;
-  width: 100%;
-  background-blend-mode: multiply;
-  background-color: rgba(0,0,0,0.5);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-attachment: fixed;
-} */
 
 .collections {
   background-image: url('./images/suicideCliff2.jpg');
@@ -234,33 +135,6 @@ li {
 .mySlides {
   display: none;
 }
-
-/* Next & previous buttons */
-/* .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-} */
-
-/* Position the "next button" to the right */
-/* .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-} */
-
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.3);
-} */
 
 /* The Dots indicators */
 .dot {
@@ -299,32 +173,6 @@ li {
 /* Contact */
 .contact {
   background: black;
-}
-
-.fa {
-  padding: 2vw 5vw 2vw;
-  width: 45px;
-  font-size: 30px;
-  text-align:center;
-
-
-
-  /* display: flex;
-  height: 70px;
-
-  text-decoration: none;
-  margin: 5px 5px;
-  padding-left: 15px; */
-}
-
-.fa:hover {
-    opacity: 0.6;
-}
-
-.fa-instagram {
-  background: #9b2aaa;
-  color: white;
-  padding-left: 15px;
 }
 
 footer {
