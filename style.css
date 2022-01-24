@@ -108,7 +108,7 @@ p, address {
   padding: 13vw 13vw 16vw;
 }
 
-.collections {
+.gallery {
   background-image: url('./images/suicideCliff2.jpg');
   padding: 13vw 13vw 16vw;
   width: 100%;
@@ -122,7 +122,6 @@ p, address {
 }
 
 .row {
-  display: -ms-flexbox; /* IE 10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
@@ -137,18 +136,18 @@ p, address {
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+  margin-top: 7px;
+  /* vertical-align: middle; */
 }
 
 /* Style the buttons */
 .btn {
   border: none;
   outline: none;
-  padding: 10px 16px;
+  padding: 7px 13px;
   background-color: #f1f1f1;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn:hover {
@@ -163,6 +162,17 @@ p, address {
 /* Contact */
 .contact {
   background: black;
+}
+
+.fab {
+  font-size:50px;
+  color:#2867B2;
+  padding: 25px 10px 15px 20px;
+}
+
+.fas {
+  font-size:50px;
+  color:#BB001B;
 }
 
 footer {
