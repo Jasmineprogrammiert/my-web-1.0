@@ -21,7 +21,7 @@ html {
 h1 { /* Home "Jasmine Zeng" */
   color:honeydew;
   font-family: 'Satisfy', 'cursive';
-  font-size:8vw;
+  font-size:7.5vw;
   text-align: center;
 }
 
@@ -37,14 +37,14 @@ h2 { /* Titles of Different Sections */
 h3 { /* Different Hello */
   color:ivory;
   font-family: 'Satisfy', 'cursive';
-  font-size: 2.8vw;
+  font-size: 2.7vw;
   text-align: center;
 } 
 
 p, address {
   color: beige;
   font-family: 'Source Serif Pro', serif;
-  font-size: 20px;
+  font-size: 1.6vw;
   text-align: justify;
   padding: 3rem 13rem 0rem;
   margin: 0;
