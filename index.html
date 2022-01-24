@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <!-- Google Fonts, Bootstrap 5.0, Social Media Icon Library, Exertanl CSS Sheet -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Oleo+Script&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.0 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="/your-path-to-fontawesome/css/all.css">
+    <!-- Exertanl CSS Sheet -->
     <link rel="stylesheet" href="style.css" />
     
 
@@ -18,7 +22,7 @@
   <body>  
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
-        <span class="navbar-brand h1 ms-4" id="navbar-upperleft">Action, Consistency, Perseverance</span>
+        <span class="navbar-brand h1 ms-4" id="navbar-upperleft">Anything is possible with action, consistency & perseverance.</span>
         <!-- Navbar -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,15 +59,15 @@
       </div>
     </header>
 
-    <!-- About Me; id is for NavBar; class does BGImage -->
+    <!-- About Me -->
     <div class="about-me" id="about-me">
       <div class="about-me-p row col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p>
           Hello, my name is <i><strong>Jasmine ZENG</strong></i
-          >. I was born and raised in Mainland China. I am currently a full-time Marketing undergrad at The Hong Kong Polytechnic University, a programmer, and a language devotee. 
+          >. I was born and raised in Mainland China. I am a full-time Marketing undergrad at The Hong Kong Polytechnic University and a part-time programmer & language devotee. 
         </p>
         <p>
-          As a person who values self-improvemnt and personal development to a great extent, I always strive to learn new skills & knowledge and aim for proficiency. That is why I am striving to become a Full-Stack Web Developer, despite my initial goal of only creating a personal website. Furthermore, I am an avid language enthusiast. A language acts like a bridge that enables me to connect to people and their cultures on a deeper level. I find it extremly fascinating for this reason. Right now, I am actively learning German and French after being fluent in English and Cantonese.
+          As a person who values self-improvemnt and personal development to a great extent, I always strive to learn new skills & knowledge and aim for proficiency. That is why I aim to become a Full-Stack Web Developer, despite my initial goal of only creating a personal website. Furthermore, I am an avid language enthusiast. A language acts like a bridge that enables me to connect to people and their cultures on a deeper level. For this reason, I find it extremely fascinating. Right now, I am actively learning German and French after being fluent in English and Cantonese.
         </p>
         <p>
           Besides the above activities, I also enjoy hiking, visiting arts museums, and exploring local neighborhoods for their food and cultures.
@@ -71,32 +75,33 @@
       </div>
     </div>
 
+
+
+    
     <!-- Pics -->
     <div class="collections" id="collections">
-      <h2>📷 Collections</h2>
+      <h2>Gallery</h2>
       <p>
         I like to take photos to keep track of my life in Hong Kong. Below are some of my favorites. 
       </p>
       <br>
 
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="./images/hkIsland2.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="./images/redIncenseBurnerSummit2.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="./images/thePeak1.jpeg" style="width:100%">
-        </div>
-      </div>
-      <br>
+      <!-- Grid View buttons -->
+      <button class="btn" onclick="one()">1</button>
+      <button class="btn active" onclick="two()">2</button>
+      <!-- <button class="btn" onclick="four()">4</button> -->
 
-      <!-- The Dots indicators -->
-      <div style="text-align:center">
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
+      <div class="row">
+        <div class="column">
+          <img src="images/hkIsland1.jpg" style="width:100%">
+          <img src="images/hikingUnknown1.jpeg" style="width:100%">
+          <img src="images/lantauPeak1.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/qiPao6.jpg" style="width:100%">
+          <img src="images/hkIsland2.jpg" style="width:100%">
+          <img src="images/sunsetPeak3.jpg" style="width:100%">
+        </div>
       </div>
     </div>
 
@@ -108,11 +113,10 @@
       </address>
         
         
-        
-        <p>
+        <!-- <p>
         LinkedIn: linkedin.com/in/jasminzeng/<br>
         Email: jasminezeng08@gmail.com
-      </p>
+      </p> -->
       <footer>
         <small>&copy; Copyright 2022, Jasmine ZENG</small>
       </footer>
@@ -121,10 +125,8 @@
     <!-- SmoothScrolll -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
-
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
     <!-- NavBar>  -->
     <script>
         function openNav() {
@@ -135,7 +137,6 @@
           document.getElementById('mySidenav').style.width = '0';
         }
     </script>
-
     <!-- Exetrnal JS  -->
     <script src="index.js"></script>
   </body>

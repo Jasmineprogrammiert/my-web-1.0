@@ -21,23 +21,23 @@ html {
 h1 { /* Home "Jasmine Zeng" */
   color:honeydew;
   font-family: 'Satisfy', 'cursive';
-  font-size: 6vw;
+  font-size:8vw;
   text-align: center;
 }
 
 h2 { /* Titles of Different Sections */
   color:honeydew;
-  font-family: 'Courgette', cursive;
-  font-size: 4.5vw;
+  font-family: 'Kaushan Script', 'cursive';
+  font-size: 5vw;
   text-align: center;
   clear: both;
   padding: 3.5rem 10rem 0rem 10rem;
 }
 
-h3 { /* Home "Hello" */
+h3 { /* Different Hello */
   color:ivory;
-  font-family: 'Satisfy', cursive;
-  font-size: 2.5vw;
+  font-family: 'Satisfy', 'cursive';
+  font-size: 2.8vw;
   text-align: center;
 } 
 
@@ -52,16 +52,19 @@ p, address {
 /* ========== Navbar ========== */
 #navbar-upperleft {
   color:antiquewhite;
+  font-size: 2vw;
+  font-family: 'Oleo Script', 'cursive';
 }
 
 .nav-link {
   color:antiquewhite !important;
+  font-size: 1.4vw;
 }
 
 /* ========== Jumbotron ========== */
 .navbar-brand {
   font-size: 1.5rem;
-  font-family: 'Playball', cursive;
+  font-family: 'Playball', 'cursive';
 }
 
 .hero-image {
@@ -69,7 +72,6 @@ p, address {
   height: 900px;
   width: 100%;
   /* overlay effect */
-  /* background-blend-mode: multiply; */
   background-color: rgba(0,0,0,0.5);
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -77,7 +79,6 @@ p, address {
   background-size: cover;
   position: relative;
   background-attachment: fixed;
-  position: relative;
 }
 
 /* Place text in the middle of the image */
@@ -104,12 +105,12 @@ p, address {
 }
 
 .about-me-p {
-  padding: 18vw 13vw 18vw;
+  padding: 13vw 13vw 16vw;
 }
 
 .collections {
   background-image: url('./images/suicideCliff2.jpg');
-  padding: 15vw 13vw 15vw;
+  padding: 13vw 13vw 16vw;
   width: 100%;
   background-blend-mode: multiply;
   background-color: rgba(0,0,0,0.5);
@@ -120,54 +121,43 @@ p, address {
   background-attachment: fixed;
 }
 
-.collections h2 p {
-  color: beige;
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  /* padding: 0 4px; */
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 800px;
-  position: relative;
-  margin: auto;
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
-/* The Dots indicators */
-.dot {
-  /* cursor: pointer; */
-  height: 13px;
-  width: 13px;
-  margin: 0 3px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
 }
 
-.active {
-  background-color: #717171;
+.btn:hover {
+  background-color: #ddd;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 15s;
-  animation-name: fade;
-  animation-duration: 15s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: 1} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: 1} 
-  to {opacity: 1}
+.btn.active {
+  background-color: #666;
+  color: white;
 }
 
 /* Contact */
