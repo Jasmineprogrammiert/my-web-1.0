@@ -170,9 +170,9 @@ p, address {
   padding: 25px 10px 15px 20px;
 }
 
-.fas {
-  font-size:50px;
-  color:#BB001B;
+#emailMe {
+  color: beige;
+  font-family: 'Source Serif Pro', serif;
 }
 
 footer {
