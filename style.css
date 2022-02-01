@@ -121,6 +121,33 @@ p, address {
   background-attachment: fixed;
 }
 
+.galleryBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: row nowrap; */
+  justify-content: space-around;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
 .row {
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
@@ -138,32 +165,6 @@ p, address {
 .column img {
   margin-top: 7px;
   /* vertical-align: middle; */
-}
-
-.galleryBtns {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* flex-flow: row nowrap; */
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 7px 13px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
 }
 
 /* Contact */
