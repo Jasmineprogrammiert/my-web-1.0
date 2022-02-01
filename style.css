@@ -140,6 +140,13 @@ p, address {
   /* vertical-align: middle; */
 }
 
+.galleryBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: row nowrap; */
+}
+
 /* Style the buttons */
 .btn {
   border: none;
