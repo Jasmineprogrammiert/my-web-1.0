@@ -4,8 +4,6 @@
 // 	speedAsDuration: true
 // });
 
-
-
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
 
