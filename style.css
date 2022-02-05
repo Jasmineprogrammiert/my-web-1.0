@@ -49,6 +49,7 @@ p, address {
   padding: 3rem 13rem 0rem;
   margin: 0;
 }
+
 /* ========== Navbar ========== */
 #navbar-upperleft {
   color:antiquewhite;
@@ -59,6 +60,12 @@ p, address {
 .nav-link {
   color:antiquewhite !important;
   font-size: 1.4vw;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  right: 0;
 }
 
 /* ========== Jumbotron ========== */
