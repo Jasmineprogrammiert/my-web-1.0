@@ -43,8 +43,8 @@ h3 { /* Different Hello */
 
 p, address {
   color: beige;
-  font-family: 'Source Serif Pro', serif;
-  font-size: 1.6vw;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5vw;
   text-align: justify;
   padding: 3rem 13rem 0rem;
   margin: 0;
@@ -69,17 +69,12 @@ p, address {
 }
 
 /* ========== Jumbotron ========== */
-.navbar-brand {
-  font-size: 1.5rem;
-  font-family: 'Playball', 'cursive';
-}
-
 .hero-image {
   background-image: url('./images/sunsetPeak1.jpg');
   height: 900px;
   width: 100%;
   /* overlay effect */
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -140,10 +135,10 @@ p, address {
 .btn {
   border: none;
   outline: none;
-  padding: 10px 16px;
+  padding: 0.8vw 1.5vw;
   background-color: #f1f1f1;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.6vw;
 }
 
 .btn:hover {
@@ -180,9 +175,9 @@ p, address {
 }
 
 .fab {
-  font-size:50px;
+  font-size:4.5vw;
   color:#2867B2;
-  padding: 25px 10px 15px 20px;
+  padding: 2.5vw 1vw 1.5vw 2vw;
 }
 
 #emailMe {
@@ -195,38 +190,42 @@ footer {
   color: beige;
 }
 
-/* If the screen size is 100px wide or less, set the ... of <XXX> to... */
-@media screen and (max-width: 800px) {
-  .navbar-brand {
-    font-size: 15px;
-  }
-  
+/* If the screen size is 650px wide or less, set the ... of ... to... */
+@media screen and (max-width: 650px) {
   .hero-image {
     height: 90vh;
   }
   
+  #navbar-upperleft {
+    font-size: 3.5vw;
+  }
+
+  .navbar-toggler-icon, .navbar-nav {
+    font-size:2.5vw;
+    /* padding: 2.5vw, 1vw 1.5vw 2vw; */
+    /* display: left; */
+  }
+
+  .nav-link, .dropdown-item{
+    font-size: 2.5vw;
+  }
+
   h1 {
-    font-size: 11vw;
+    font-size: 13vw;
   }
 
   h2 {
-    font-size: 6vw;
+    font-size: 8vw;
     padding: 8vh 3vw 0vh;
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 5vw;
     padding: 3vh 3vw;
   }
 
   p {
-    font-size: 15px;
+    font-size: 2.8vw;
     padding: 3vh 8vw;
-  }
-
-  ul {
-    font-size: 15px;
-    padding: 1rem 3rem 0rem;
-    margin: 0;
   }
 }
