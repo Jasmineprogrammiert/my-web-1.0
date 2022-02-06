@@ -200,6 +200,10 @@ footer {
   .about-me {
     background-image: url('./images/ngongPing1.jpg');
   }
+
+  .gallery {
+    background-image: url('./images/stanley1.jpeg');
+  }
   
   #navbar-upperleft {
     font-size: 3.5vw;
