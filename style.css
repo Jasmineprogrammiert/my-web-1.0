@@ -196,16 +196,26 @@ footer {
 
   #navbar-upperleft {
     color:rgba(0, 0, 0, 0.781);
-    font-size: 3.5vw;
+    font-size: 5vw;
   }
 
-  .navbar-toggler-icon, .navbar-nav, .dropdown-item {
-    font-size:2.5vw;
+  .navbar-toggler-icon {
+    font-size: 2.5vw;
+  }
+  
+  .navbar-nav {
+    font-size: 2.5vw;
+    padding-left: 43%;
   }
 
   .nav-link {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color:rgba(0, 0, 0, 0.781) !important; 
+  }
+
+  .dropdown-item {
+    font-size: 3.5vw;
+    padding-right: 0;
   }
 
   h1 {
