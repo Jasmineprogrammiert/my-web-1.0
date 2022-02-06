@@ -196,6 +196,10 @@ footer {
     height: 90vh;
     background-image: url('./images/qiPao6.jpg');
   }
+
+  .about-me {
+    background-image: url('./images/ngongPing1.jpg');
+  }
   
   #navbar-upperleft {
     font-size: 3.5vw;
