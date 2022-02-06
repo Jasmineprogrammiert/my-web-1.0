@@ -194,6 +194,7 @@ footer {
 @media screen and (max-width: 650px) {
   .hero-image {
     height: 90vh;
+    background-image: url('./images/qiPao6.jpg');
   }
   
   #navbar-upperleft {
