@@ -1,7 +1,5 @@
 /* ========= General ========= */
 html {
-  /* It does not work in Safari. Need to fix with JS */
-  scroll-behavior: smooth;
   /* disable copy/paste */
   -webkit-user-select: none;
   -khtml-user-select: none;
