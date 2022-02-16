@@ -47,7 +47,6 @@ p, address {
   padding: 3rem 13rem 0rem;
   margin: 0;
 }
-
 /* ========== Navbar ========== */
 #navbar-upperleft {
   color:antiquewhite;
@@ -65,7 +64,6 @@ p, address {
   display: block;
   right: 0;
 }
-
 /* ========== Jumbotron ========== */
 .hero-image {
   background-image: url('./images/sunsetPeak1.jpg');
@@ -107,7 +105,7 @@ p, address {
 .about-me-p {
   padding: 13vw 13vw 16vw;
 }
-
+/* ========== Gallery ========== */
 .gallery {
   background-image: url('./images/suicideCliff2.jpg');
   padding: 13vw 13vw 16vw;
@@ -166,8 +164,7 @@ p, address {
   margin-top: 7px;
   /* vertical-align: middle; */
 }
-
-/* Contact */
+/* ========== Contact ========== */
 .fab {
   font-size:4.5vw;
   color:#2867B2;
@@ -182,7 +179,7 @@ p, address {
 footer {
   color: beige;
 }
-
+/* ========== Responsive Web ========== */
 /* If the screen size is 650px wide or less, set the ... of ... to... */
 @media screen and (max-width: 650px) {
   .hero-image {
