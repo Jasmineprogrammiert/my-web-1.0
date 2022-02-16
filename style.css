@@ -77,7 +77,7 @@ p, address {
   transform: translate(-50%, -50%);
 }
 .about-me {
-  background-image: url('./images/qiPao5.jpg');
+  background-image: url('./images/qiPao1.jpg');
   width: 100%;
   background-blend-mode: multiply;
   background-color: rgba(0,0,0,0.4);
@@ -93,7 +93,7 @@ p, address {
 }
 /* ========== Gallery ========== */
 .gallery {
-  background-image: url('./images/suicideCliff2.jpg');
+  background-image: url('./images/suicideCliff1.jpg');
   padding: 19vh 13vw 5vh;
   width: 100%;
   background-blend-mode: multiply;
