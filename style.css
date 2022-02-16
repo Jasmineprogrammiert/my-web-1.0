@@ -1,6 +1,5 @@
 /* ========= General ========= */
-html {
-  /* disable copy/paste */
+html { /* disable copy&paste */
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -28,7 +27,7 @@ h2 { /* Titles of Different Sections */
   clear: both;
 }
 h3 { /* Different Hello */
-  color:ivory;
+  color: ivory;
   font-family: 'Satisfy', 'cursive';
   font-size: 2.7vw;
   text-align: center;
@@ -51,8 +50,7 @@ p, address {
   color: antiquewhite !important;
   font-size: 1.4vw;
 }
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu { /* Show the dropdown menu on hover */
   display: block;
   right: 0;
 }
@@ -70,8 +68,7 @@ p, address {
   position: relative;
   background-attachment: fixed;
 }
-/* Place text in the middle of the image */
-.hero-text {
+.hero-text { /* Place text in the middle of the image */
   position: absolute;
   text-align: center;
   top: 50%;
@@ -110,10 +107,8 @@ p, address {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-flow: row nowrap; */
   justify-content: space-around;
 }
-/* Style the buttons */
 .btn {
   border: none;
   outline: none;
@@ -135,17 +130,14 @@ p, address {
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
-  /* padding: 0 4px; */
 }
-/* Create two equal columns that sits next to each other */
-.column {
+.column { /* Create two equal columns that sits next to each other */
   -ms-flex: 50%; /* IE 10 */
   flex: 50%;
   padding: 0 0.25vw;
 }
 .column img {
   margin-top: 0.7vh;
-  /* vertical-align: middle; */
 }
 /* ========== Contact ========== */
 .fab {
@@ -194,7 +186,7 @@ footer {
   }
   h2 {
     font-size: 8vw;
-    padding: 8vh 3vw 0vh;
+    padding: 8vh 3vw 0;
   }
   h3 {
     font-size: 5vw;
