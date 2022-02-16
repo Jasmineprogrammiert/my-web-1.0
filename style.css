@@ -34,7 +34,7 @@ h3 { /* Different Hello */
 } 
 p, address {
   color: beige;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 1.5vw;
   text-align: justify;
   padding: 5vh 1vw 0;
@@ -43,12 +43,13 @@ p, address {
 /* ========== Navbar ========== */
 #nav-upperleft {
   color: antiquewhite;
-  font-size: 2vw;
+  font-size: 1.9vw;
   font-family: 'Oleo Script', 'cursive';
 }
-.nav-link {
+.nav-link, .dropdown-item {
   color: antiquewhite !important;
   font-size: 1.4vw;
+  font-family: 'Georgia', sans-serif;
 }
 .dropdown:hover .dropdown-menu { /* Show the dropdown menu on hover */
   display: block;
@@ -147,10 +148,11 @@ p, address {
 }
 #email-me {
   color: beige;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Georgia', sans-serif;
 }
 footer {
   color: beige;
+  font-family: 'Georgia', sans-serif;
 }
 /* ========== Responsive Web ========== */
 /* If the screen size is 650px wide or less, set the ... of ... to... */
