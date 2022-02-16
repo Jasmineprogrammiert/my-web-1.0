@@ -1,9 +1,3 @@
-// All animations will take exactly 500ms
-// var scroll = new SmoothScroll('a[href*="#"]', {
-// 	speed: 800,
-// 	speedAsDuration: true
-// });
-
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
 
@@ -11,12 +5,12 @@ var elements = document.getElementsByClassName("column");
 var i;
 
 // Full-width images
-function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
-  }
-}
+// function one() {
+//   for (i = 0; i < elements.length; i++) {
+//     elements[i].style.msFlex = "100%";  // IE10
+//     elements[i].style.flex = "100%";
+//   }
+// }
 
 // Two images side by side
 function two() {
