@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Oleo+Script&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Exertanl CSS Sheet -->
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <!-- Website's name -->
+    <title>Jasmine Zeng的網站</title>
+  </head>
+
+  <body>  
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <span class="h1 ms-4" id="nav-upperleft">持之以恆</span>
+        <!-- Navbar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Items -->    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#home">主頁</a>
+            <a class="nav-link" href="#about-me">關於</a>
+            <a class="nav-link" href="#gallery">相簿</a>
+            <a class="nav-link" href="#contact">聯繫</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
+              aria-expanded="false">🇭🇰</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-xl-start" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/index.html">🇺🇸 English</a></li> 
+                <li><a class="dropdown-item" href="/otherlanguages/deutsch.html">🇩🇪 Deutsch</a></li>
+                <li><a class="dropdown-item" href="/otherlanguages/français.html">🇫🇷 Français</a></li>
+                <li><a class="dropdown-item" href="/otherlanguages/schinese.html">🇨🇳 简体中文</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Jasmine Zeng</h1>
+          <h3>Nǐ Hǎo/Hello/Nei Ho/Hallo/Bonjour</h3>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <div class="about-me" id="about-me">
+      <div class="about-me-p row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p>你好，我叫<strong>曾子欣</strong>，來自中國大陸。我是香港理工大學市場學學士的學生，同時也是網頁開發者和語言愛好者。作為一個非常重視自我價值提升的人，我從未停下學習新知識的腳步，併力求在新的領域達到一個令人滿意的水平。</p>
+        <p>學業之余，我在21年年底開始接觸諸如 HTML、CSS 等編程語言。一開始，我只希望可以創建一個個人網站，分享自己的爬山見聞和相片。不久後，我發現自己十分享受創建和設計網站的過程，遂開始認真的學習更多相關的知識。目前我還在練習前端，我計劃在22年年末進軍後端。</p>
+        <p>除此以外，我還很喜歡學習語言。我覺得每門語言就像一把打開不同世界的門的鑰匙，不僅可以讓我對某個地方的人和文化有更深的體驗和瞭解，還可以讓我從多維度思考事情。我的母語是國語，高中時為了來香港讀書，我專門學了英文和粵語。出於對歐洲自然和文化的興趣，我現在正在學習德文和法文。</p>
+        <p>除了上述愛好，我平時還喜歡行山、參觀歷史和美術博物館與探索香港的美食和文化。</p>
+      </div>
+    </div>
+    
+    <!-- Gallery -->
+    <div class="gallery" id="gallery">
+      <h2>相簿</h2>
+      <p>我平時喜歡用相片紀錄生活中美好的瞬間，以下是一些我最喜歡的照片之一，希望你也會喜歡它們。</p><br>
+
+      <!-- Grid View buttons -->
+      <div class="gallery-btns">
+        <!-- <button class="btn" onclick="one()">1</button> -->
+        <button class="btn active" onclick="two()">2</button>
+        <button class="btn" onclick="four()">4</button>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="/images/thePeak1.jpeg" style="width:100%" alt="">
+          <img src="/images/macLeHoseTrail1.jpeg" style="width:100%" alt="">
+          <img src="/images/ngongPingTrail2.jpg" style="width:100%" alt="">
+          <img src="/images/macLeHoseTrail2.jpeg" style="width:100%" alt="">
+          <img src="/images/qiPao3.jpg" style="width:100%" alt="">
+        </div>
+        <div class="column">
+          <img src="/images/qiPao2.jpg" style="width:100%" alt="">
+          <img src="/images/hkIsland2.jpg" style="width:100%" alt="">
+          <img src="/images/sunsetPeak2.jpg" style="width:100%" alt="">
+          <img src="/images/ngongPingTrail1.jpg" style="width:100%" alt="">
+        </div>
+        <div class="column">
+          <img src="/images/hkIsland1.jpg" style="width:100%" alt="">
+          <img src="/images/hikingUnknown1.jpeg" style="width:100%" alt="">
+          <img src="/images/lantauPeak1.jpeg" style="width:100%" alt="">
+          <img src="/images/tszShanMonastery1.jpg" style="width:100%" alt="">
+        </div>
+        <div class="column">
+          <img src="/images/patSinLeng1.jpeg" style="width:100%" alt="">
+          <img src="/images/cooking1.jpeg" style="width:100%" alt="">
+          <img src="/images/stanley1.jpeg" style="width:100%" alt="">
+          <img src="/images/taiTam1.jpeg" style="width:100%" alt="">
+        </div>
+      </div>
+      <!-- Contact -->
+      <div id="contact">
+        <a href="https://www.linkedin.com/in/jasminzeng/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jasminezeng08@gmail.com" id="email-me">我的電郵</a> 
+        <footer>
+          <small>Copyright &copy; 2022 Jasmine Zeng. 保留一切權利。</small>
+        </footer>
+      </div>
+    </div>
+
+    <!-- SmoothScrolll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- NavBar>  -->
+    <script>
+      function openNav() {
+        document.getElementById('mySidenav').style.width = '250px';
+      }
+      function closeNav() {
+        document.getElementById('mySidenav').style.width = '0';
+      }
+    </script>
+    <!-- Exetrnal JS  -->
+    <script src="index.js"></script>
+  </body>
+</html>
