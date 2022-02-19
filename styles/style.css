@@ -227,6 +227,9 @@ footer {
     margin-top: 1.8vh;
     font-size: 3.8vw;
   }
+  .column img {
+    margin-top: 0.3vh;
+  }
   .fab {
     font-size: 10vw;
     color: #2867B2;
