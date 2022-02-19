@@ -156,7 +156,7 @@ footer {
 }
 /* ========== Responsive Web ========== */
 /* If the screen size is 650px wide or less, set the ... of ... to... */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
