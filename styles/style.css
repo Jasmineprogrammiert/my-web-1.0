@@ -89,6 +89,9 @@ p, address {
   position: relative;
   background-attachment: fixed;
 }
+.about-me-german {
+  height: 115vh;
+}
 .about-me-p {
   padding: 13vh 13vw;
 }
