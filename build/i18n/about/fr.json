@@ -1,0 +1,20 @@
+{
+  "arrow": "retour",
+  "titles": {
+    "title-1": "Je suis une <1>Dévelop- <br /> peuse Full Stack</1> & <1>Étudiante en Marketing</1>.",
+    "title-2": "J'aime aussi les langues, <br /> la randonnée et l'histoire."
+  },
+  "links": {
+    "link-1": "> Résumé",
+    "link-1-copy": "141ko pdf",
+    "link-2": "> Blog"
+  },
+  "about": {
+    "about-me": "À propos de moi",
+    "about-1": "Bonjour, je m’appelle <i><strong>Jasmin Zeng</strong></i>. Je suis une développeuse Web et une étudiante en marketing basé à Hong-Kong, passionnée par l’apprentissage des langues, la randonnée et l’histoire.",
+    "about-2": "J’ai fait une randonnée seule sur la section 2 du MacLehose Trail lors d’une visite à Hong Kong en 2018. La beauté de la nature m’a complètement captivé, ce qui, entre autres facteurs, a conduit à la décision de poursuivre le diplôme universitaire à HK.",
+    "about-3": "Ma croyance dans le développement personnel motive mon engagement sur l’apprentissage continu, afin que je puisse contribuer de manière significative à la société. Le marketing enseigne exactement comment en identifiant les besoins des gens et en apportant de la valeur par un travail inspirant et l’utilisation des technologies. Et la joie des réalisations est non négligeable. J’ai donc choisi de me spécialiser en marketing.",
+    "about-4": "Je suis devenue une randonneuse passionnée après avoir déménagé à HK. Mes randonnées m’ont fourni de nombreuses belles photos et expérience qui j’aimerais partager. Au départ, je les ai publiés sur Instagram, mais la limite de mots a rendu difficile la création d’un seul article, ce qui a suscité l’idée audacieuse de coder mon propre blog de randonnée. Bien que je n’aie aucune formation en technologie, je crois que tout est possible avec de l’action, de la constance et de la persévérance.  Je me suis lancée dans le développement Web au début de 2022, et ce fut l’une des meilleures décisions que j’ai jamais prises.",
+    "about-5": "C’est ma curiosité infinie pour le monde qui me pousse à explorer différents domaines. Mes intérêts incluent également les voyages, la photographie, le piano et bien d’autres choses. Vous trouverez plus d’informations sur mes compétences, mon expérience et ma formation sur mon CV et mon blog."
+  }
+}
