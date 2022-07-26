@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Jasmine Zeng's Website">
+    <meta name="author" content="Jasmine Zeng">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Oleo+Script&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Exertanl CSS Sheet -->
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <!-- Website's name -->
+    <title>Jasmine Zeng's Website</title>
+    <link rel="canonical" href="/index.html"/>
+    <link rel="alternate" href="/index.html" hreflang="en"/>
+    <link rel="alternate" href="/de.html" hreflang="de"/> 
+    <link rel="alternate" href="/fr.html" hreflang="fr"/> 
+    <link rel="alternate" href="/sc.html" hreflang="zh-Hans"/> 
+    <link rel="alternate" href="/tc.html" hreflang="zh-Hant"/> 
+  </head>
+
+  <body>  
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <span class="h1 ms-4" id="nav-upperleft">Anything is possible with action, consistency & perseverance.</span>
+        <!-- Navbar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Items -->    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about-me">About Me</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
+              aria-expanded="false">🇺🇸</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-xl-start" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/de.html">🇩🇪 Deutsch</a></li>
+                <li><a class="dropdown-item" href="/fr.html">🇫🇷 Français</a></li>
+                <li><a class="dropdown-item" href="/sc.html">🇨🇳 简体中文</a></li>
+                <li><a class="dropdown-item" href="/tc.html">🇭🇰 繁體中文</a></li> 
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Jasmine Zeng</h1>
+          <h3>Nǐ Hǎo/Hello/Nei Ho/Hallo/Bonjour</h3>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <main class="about-me" id="about-me">
+      <div class="about-me-p row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p>Hello, my name is <i><strong>Jasmine Zeng</strong></i>. I was born and raised in Mainland China. In addition to being a Marketing undergraduate at The Hong Kong Polytechnic University, I am also a web developer and language enthusiast. As a person who values self-improvement and personal development to a great extent, I constantly strive to learn new skills and knowledge and aim for proficiency.</p>
+        <p>My interests extend beyond academic studies to programming languages like HTML, CSS and JavaScript. My first foray into web development was in late 2021. Initially, I only intended to create a website showcasing my hiking experiences and photos. However, I soon realized that I really enjoy building websites and am always eager to learn more. At the moment, I am still working on front-end, but I plan to get into backend in late 2022.</p>
+        <p>Furthermore, I am an avid language devotee. A language acts like a bridge that enables me to connect to people and their cultures on a deeper level. For this reason, I find it extremely fascinating. Right now, I am actively learning German and French after being fluent in English and Cantonese.</p>
+        <p>Besides the above activities, I also enjoy hiking, visiting history and art museums, and exploring local neighborhoods for their food and cultures.</p>
+      </div>
+    </main>
+    
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <h2>Gallery</h2>
+      <p>I like to take photos to keep track of my life in Hong Kong. Below are some of my favorites.</p><br>
+      <!-- Grid View buttons -->
+      <div class="gallery-btns" id="gallery-btns">
+        <button class="btn active" onclick="two()">2</button>
+        <button class="btn" onclick="four()">4</button>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="/images/the-peak-01.jpeg" style="width:100%" alt="The Peak">
+          <img src="/images/maclehose-trail-01.jpeg" style="width:100%" alt="MacLehose Trail">
+          <img src="/images/ngong-ping-trail-02.jpg" style="width:100%" alt="Ngong Ping Trail">
+          <img src="/images/maclehose-trail-02.jpeg" style="width:100%" alt="MacLehose Trail">
+          <img src="/images/cheongsam-03.jpg" style="width:100%" alt="Jasmine in Qipao">
+        </div>
+        <div class="column">
+          <img src="/images/cheongsam-02.jpg" style="width:100%" alt="Jasmine in Qipao">
+          <img src="/images/hk-island-02.jpg" style="width:100%" alt="Hong Kong Island">
+          <img src="/images/sunset-peak-02.jpg" style="width:100%" alt="Sunset Peak">
+          <img src="/images/ngong-ping-trail-01.jpg" style="width:100%" alt="Ngong Ping Trail">
+        </div>
+        <div class="column">
+          <img src="/images/hk-island-01.jpg" style="width:100%" alt="Hong Kong Island">
+          <img src="/images/fanling-hong-lok-park-01.jpeg" style="width:100%" alt="Lotus at a Park in Fan Ling">
+          <img src="/images/lantau-peak-01.jpeg" style="width:100%" alt="Lantau Peak">
+          <img src="/images/tsz-shan-monastery-01.jpg" style="width:100%" alt="Tsz Shan Monastery">
+        </div>
+        <div class="column">
+          <img src="/images/pat-sin-leng-01.jpeg" style="width:100%" alt="Pat Sin Leng">
+          <img src="/images/cooking-01.jpeg" style="width:100%" alt="Cooking">
+          <img src="/images/stanley-01.jpeg" style="width:100%" alt="Stanley">
+          <img src="/images/tai-tam-01.jpeg" style="width:100%" alt="Tai Tam">
+        </div>
+      </div>
+      <!-- Contact -->
+      <div id="contact">
+        <a href="https://www.linkedin.com/in/jasminzeng/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jasminezeng08@gmail.com" id="email-me">Email Me</a> 
+        <footer>
+          <small>Copyright &copy; 2022 Jasmine Zeng. All rights reserved.</small>
+        </footer>
+      </div>
+    </section>  
+
+    <!-- SmoothScrolll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- NavBar -->
+    <script>
+      function openNav() {
+        document.getElementById('mySidenav').style.width = '250px';
+      }
+      function closeNav() {
+        document.getElementById('mySidenav').style.width = '0';
+      }
+    </script>
+    <!-- Exetrnal JS  -->
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>

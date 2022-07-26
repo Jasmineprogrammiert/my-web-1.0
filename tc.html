@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wid
+    th=device-width, initial-scale=1.0"/>
+    <meta name="description" content="曾子欣的網站">
+    <meta name="author" content="Jasmine Zeng">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Oleo+Script&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Exertanl CSS Sheet -->
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <!-- Website's name -->
+    <title>曾子欣的個人網站</title>
+    <link rel="canonical" href="/index.html"/>
+    <link rel="alternate" href="/index.html" hreflang="en"/>
+    <link rel="alternate" href="/de.html" hreflang="de"/> 
+    <link rel="alternate" href="/fr.html" hreflang="fr"/> 
+    <link rel="alternate" href="/sc.html" hreflang="zh-Hans"/> 
+    <link rel="alternate" href="/tc.html" hreflang="zh-Hant"/> 
+  </head>
+
+  <body>  
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <span class="h1 ms-4" id="nav-upperleft">持之以恆</span>
+        <!-- Navbar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Items -->    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#home">主頁</a>
+            <a class="nav-link" href="#about-me">關於</a>
+            <a class="nav-link" href="#gallery">相簿</a>
+            <a class="nav-link" href="#contact">聯繫</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
+              aria-expanded="false">🇭🇰</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-xl-start" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/index.html">🇺🇸 English</a></li> 
+                <li><a class="dropdown-item" href="/de.html">🇩🇪 Deutsch</a></li>
+                <li><a class="dropdown-item" href="/fr.html">🇫🇷 Français</a></li>
+                <li><a class="dropdown-item" href="/sc.html">🇨🇳 简体中文</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Jasmine Tsang</h1>
+          <h3>Nǐ Hǎo/Hello/Nei Ho/Hallo/Bonjour</h3>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <main class="about-me" id="about-me">
+      <div class="about-me-p row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p>你好，我叫<strong>曾子欣</strong>，來自中國大陸。我是香港理工大學市場學的大學生，同時也是網頁開發者和語言愛好者。作為一個非常重視自我價值提升的人，我從未停下學習新知識的腳步，並追求在新的領域達到一個令人滿意的水平。</p>
+        <p>學業之餘，我在21年年底開始接觸諸如 HTML、CSS 等編程語言。一開始，我只希望可以創建一個個人網站，分享自己的爬山見聞和相片。不久後，我發現自己十分享受創建和設計網站的過程，遂開始認真的學習更多相關的知識。目前我還在練習前端開發，我計劃在22年年末學習後端開發。</p>
+        <p>另外，我還很喜歡學習語言。我覺得每門語言就像一把打開不同世界的門的鑰匙，不僅可以讓我對某個地方的人和文化有更深的體驗和瞭解，還可以讓我從多維度思考事情。我的母語是國語，高中時為了來香港讀書，我專門學了英文和廣東話。出於對歐洲自然和文化的興趣，我現在正在學習德文和法文。</p>
+        <p>除此之外，我平時也鍾意行山、參觀歷史和美術博物館與探索香港的美食和文化。</p>
+      </div>
+    </main>
+    
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <h2>相簿</h2>
+      <p>我喜歡用相片紀錄生活中美好的瞬間，以下是一些我最欣賞的照片，希望你也會喜歡它們。</p><br>
+
+      <!-- Grid View buttons -->
+      <div class="gallery-btns" id="gallery-btns">
+        <button class="btn active" onclick="two()">2</button>
+        <button class="btn" onclick="four()">4</button>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="/images/the-peak-01.jpeg" style="width:100%" alt="The Peak">
+          <img src="/images/maclehose-trail-01.jpeg" style="width:100%" alt="MacLehose Trail">
+          <img src="/images/ngong-ping-trail-02.jpg" style="width:100%" alt="Ngong Ping Trail">
+          <img src="/images/maclehose-trail-02.jpeg" style="width:100%" alt="MacLehose Trail">
+          <img src="/images/cheongsam-03.jpg" style="width:100%" alt="Jasmine in Qipao">
+        </div>
+        <div class="column">
+          <img src="/images/cheongsam-02.jpg" style="width:100%" alt="Jasmine in Qipao">
+          <img src="/images/hk-island-02.jpg" style="width:100%" alt="Hong Kong Island">
+          <img src="/images/sunset-peak-02.jpg" style="width:100%" alt="Sunset Peak">
+          <img src="/images/ngong-ping-trail-01.jpg" style="width:100%" alt="Ngong Ping Trail">
+        </div>
+        <div class="column">
+          <img src="/images/hk-island-01.jpg" style="width:100%" alt="Hong Kong Island">
+          <img src="/images/fanling-hong-lok-park-01.jpeg" style="width:100%" alt="Lotus at a Park in Fan Ling">
+          <img src="/images/lantau-peak-01.jpeg" style="width:100%" alt="Lantau Peak">
+          <img src="/images/tsz-shan-monastery-01.jpg" style="width:100%" alt="Tsz Shan Monastery">
+        </div>
+        <div class="column">
+          <img src="/images/pat-sin-leng-01.jpeg" style="width:100%" alt="Pat Sin Leng">
+          <img src="/images/cooking-01.jpeg" style="width:100%" alt="Cooking">
+          <img src="/images/stanley-01.jpeg" style="width:100%" alt="Stanley">
+          <img src="/images/tai-tam-01.jpeg" style="width:100%" alt="Tai Tam">
+        </div>
+      </div>
+      <!-- Contact -->
+      <div id="contact">
+        <a href="https://www.linkedin.com/in/jasminzeng/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jasminezeng08@gmail.com" id="email-me">我的電郵</a> 
+        <footer>
+          <small>Copyright &copy; 2022 Jasmine Zeng. 保留一切權利。</small>
+        </footer>
+      </div>
+    </section>
+
+    <!-- SmoothScrolll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- NavBar>  -->
+    <script>
+      function openNav() {
+        document.getElementById('mySidenav').style.width = '250px';
+      }
+      function closeNav() {
+        document.getElementById('mySidenav').style.width = '0';
+      }
+    </script>
+    <!-- Exetrnal JS  -->
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>
