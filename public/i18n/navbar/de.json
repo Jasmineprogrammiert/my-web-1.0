@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "aboutMe": "Hallo,",
+    "myBlogs": "Ich bin",
+    "contact": "Jasmin",
+    "aboutMe1": "Über",
+    "myBlogs1": "Blog",
+    "contact1": "Kontakt"
+  },
+  "lang" : {
+    "EN": "🇺🇸 En",
+    "DE": "🇩🇪 De",
+    "FR": "🇫🇷 Fr",
+    "SC": "🇨🇳 Vc",
+    "TC": "🇭🇰 Tc"
+  }
+}

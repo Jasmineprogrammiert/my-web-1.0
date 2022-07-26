@@ -1,0 +1,256 @@
+/* ---------- Google Fonts ---------- 
+  1. Source Sans Pro - regular 400
+  2. Open Sans - light 300
+  3. Roboto - regular 400
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&family=Source+Sans+Pro&display=swap');
+/* ---------- General ---------- */
+html {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+p, footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+a {
+  color: inherit !important;
+}
+code {
+  color: rgb(224, 4, 124);
+}
+/* ---------- Navbar ---------- */
+.hero-image {
+  background-image: url('/src/assets/img/portrait-01.jpg');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  animation: hero-img 1.15s cubic-bezier(.5, .6, .6, 1);
+  animation-fill-mode: backwards;
+}
+@keyframes hero-img {
+  0% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.hero-text {
+  position: absolute;
+  transform: translate(-6%, 0%);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 8.5vw;
+  font-weight: bold;
+  width: 100%;
+  text-decoration: none;
+}
+.hero-text span:hover {
+  color: yellow !important;
+  text-indent: 0.5em;
+  letter-spacing: 0.2vw;
+  text-transform: uppercase;
+  transition: .5s ease-out;
+}
+.slideUp > span {
+  display: block;
+  text-align: left;
+  animation: slideUp .5s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation-fill-mode: backwards;
+}
+.menu-1 > span {
+  animation-delay: .1s;
+}
+.menu-2 > span {
+  animation-delay: .3s;
+}
+.menu-3 > span {
+  animation-delay: .5s;
+  color: #00FFFF;
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(13vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.menu-1, .menu-2, .menu-3 {
+  padding-left: 13vw;
+}
+.menu-1 {
+  top: 8%;
+  width: 47%;
+}
+.menu-2 {
+  top: 37%;
+  width: 39%;
+}
+.menu-3 {
+  top: 66%;
+  width: 43%;
+}
+.lang {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
+  font-weight: lighter;
+  text-align: right;
+  width: 7%;
+  top: 14%;
+}
+.lang > span {
+  animation: slideDown .3s;
+  display: block;
+  animation-fill-mode: backwards;
+}
+.menu-tc > span {
+  animation-delay: .7s;
+}
+.menu-sc > span {
+  animation-delay: .55s;
+}
+.menu-de > span {
+  animation-delay: .25s;
+}
+.menu-fr > span {
+  animation-delay: .4s;
+}
+.menu-en > span {
+  animation-delay: .1s;
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-5vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.menu-en {
+  left: 62%;
+}
+.menu-de {
+  left: 68%;
+}
+.menu-fr {
+  left: 74%;
+}
+.menu-sc {
+  left: 80%;
+}
+.menu-tc {
+  left: 86%;
+}
+/* ---------- About ---------- */
+#about-me {
+  background-color: rgb(20, 20, 20);
+  height: 245vh;
+}
+.arrow-back {
+  position: absolute;
+  margin: 10vh 0 0 84vw;
+  width: 4.5%;
+  font-size: 2vw;
+  text-decoration: none;
+}
+.arrow-back span:hover {
+  color: yellow !important;
+  text-indent: 0.1em;
+  letter-spacing: 0.1vw;
+  text-transform: uppercase;
+  transition: .5s ease-out;
+}
+.titles {
+  position: absolute;
+  left: 14%;
+}
+.titles > span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 6.5vw;
+  font-weight: bold;
+}
+.menu-4 {
+  top: 21%;
+}
+.menu-5 {
+  top: 67%;
+}
+.menu-5 > span {
+  animation-delay: 500ms;
+  font-size: 4vw;
+  font-weight: 100;
+}
+.about-me-img {
+  position: relative;
+  float: left;
+  margin: 68vh -18vw 0 -5vw;
+  object-fit: cover;
+  width: 53%;
+  height: auto;
+}
+.about-me {
+  padding: 100vh 13vw 17vh 10vw;
+}
+.about-me > h2 {
+  padding-bottom: 3vh;
+}
+.about-me p {
+  margin-bottom: 3.5vh;
+}
+.links {
+  position: absolute;
+  margin: 1vh 0 0 18.8vw;
+  font-size: 1.5vw;
+  width: 12%;
+}
+.links span {
+  color: rgb(224, 4, 124);
+}
+.links span:hover {
+  color: yellow !important;
+  text-indent: 0.1em;
+  letter-spacing: 0.1vw;
+  transition: .5s ease-out;
+}
+.link-2 {
+  margin-top: 6vh;
+}
+/* ---------- Contact ---------- */
+#contact {
+  padding: 0vh 0 5vh 12vw;
+  background-color: rgb(20, 20, 20);
+}
+.icons {
+  font-size: 4vw !important;
+  margin: 0 .5vw .5vh 0;
+}
+footer {
+  font-size: 1.4vw;
+}
+footer > a {
+  text-decoration: none;
+  margin-left: 37.4vw;
+}

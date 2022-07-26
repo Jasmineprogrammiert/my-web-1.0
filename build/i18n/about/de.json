@@ -1,0 +1,20 @@
+{
+  "arrow": "zurück",
+  "titles": {
+    "title-1": "Ich bin <1>Fullstack <br /> Web Entwicklerin <br /></1> & <1>Marketing Studentin</1>.",
+    "title-2": "Sprachen, Wandern & Geschichte <1><br /></1> gefällen mir auch sehr."
+  },
+  "links": {
+    "link-1": "> Lebenslauf",
+    "link-1-copy": "141kb pdf",
+    "link-2": "> Blog"
+  },
+  "about": {
+    "about-me": "Über mich",
+    "about-1": "Hallo, mein Name ist <i><strong>Jasmin Zeng</strong></i>. Ich bin eine in Hongkong ansässigere Webentwicklerin und Marketing-Studentin mit einer Leidenschaft für Sprachenlernen, Wandern und Geschichte.",
+    "about-2": "Bei einem Besuche in Hongkong im Jahr 2018 babe ich eine Wanderung auf dem MacLehose Trail Section 2 alleine unternommen. Die Schönheit der Natur dort hat mich voll in ihren Bann gezogen, was unter anderen zu der Entscheidung führte, den Bachelorstudium in Hongkong zu absolvieren.",
+    "about-3": "Mein Glaube an die persönliche Entwicklung treibt mein Engagement für kontinuierliches Lernen an, damit ich einen sinnvollen Beitrag zur Gesellschaft leisten kann. Marketing lehrt genau wie, indem es die Bedürfnisse der Menschen identifiziert und durch inspirierende Arbeit und den Einsatz von Technologien einen Mehrwert bietet. Und die Freude am Erreichten ist nicht zu vernachlässigen. Daher habe ich mich für den Studiengang Marketing entschieden.",
+    "about-4": "Ich bin eine begeisterte Wanderin geworden, als ich nach HK gezogen bin. Meine Wanderungen haben mir viele schöne Fotos und Erlebnisse beschert, die ich gerne teilen möchte. Ursprünglich habe ich sie auf Instagram gepostet, aber die Wortbegrenzung machte es schwierig, einen Beitrag zusammenzustellen, was zu der mutigen Idee führte, meinen eigenen Wanderblog zu programmieren. Obwohl ich keinen technischen Hintergrund hatte, glaube ich, dass mit Tatendrang, Konsistenz und Ausdauer alles möglich ist. Ich habe Anfang 2022 die Webentwicklung engagiert und es war eine der besten Entscheidungen, die ich je getroffen habe.",
+    "about-5": "Es ist meine endlose Neugier auf die Welt, die mich antriebt, verschiedene Bereiche zu erkunden. Zu meinen Interessen gehören auch Reisen, Fotografiere, Klavierspielen und viele andere Sachen. Mehr über meine Fähigkeiten, Erfahrungen und Ausbildung finden Sie in meinem Lebenslauf und Blog."
+  }
+}

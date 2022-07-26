@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/JesuisJasmin.github.io/static/css/main.fed40d46.css",
+    "main.js": "/JesuisJasmin.github.io/static/js/main.2b6ff823.js",
+    "static/media/portrait-01.jpg": "/JesuisJasmin.github.io/static/media/portrait-01.01a4dabb3fbdea12ac37.jpg",
+    "static/media/jasmine.png": "/JesuisJasmin.github.io/static/media/jasmine.7f6210590cdb283ccb14.png",
+    "static/media/Jasmine_Zeng_CV.pdf": "/JesuisJasmin.github.io/static/media/Jasmine_Zeng_CV.c0eafabc33635041b436.pdf",
+    "index.html": "/JesuisJasmin.github.io/index.html",
+    "static/media/getFetch.cjs": "/JesuisJasmin.github.io/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.fed40d46.css.map": "/JesuisJasmin.github.io/static/css/main.fed40d46.css.map",
+    "main.2b6ff823.js.map": "/JesuisJasmin.github.io/static/js/main.2b6ff823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fed40d46.css",
+    "static/js/main.2b6ff823.js"
+  ]
+}
